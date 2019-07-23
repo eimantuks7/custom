@@ -46,8 +46,8 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: 'basicBot',
-        language: 'english',
+        botName: 'SISTEMA',
+        language: 'lithuanian',
         chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
@@ -58,7 +58,7 @@
         autoskip: false,
         smartSkip: true,
         cmdDeletion: true,
-        maximumAfk: 120,
+        maximumAfk: 9999,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -81,13 +81,13 @@
         thorCooldown: 10,
         skipPosition: 3,
         skipReasons: [
-            ['theme', 'This song does not fit the room theme. '],
-            ['op', 'This song is on the OP list. '],
-            ['history', 'This song is in the history. '],
-            ['mix', 'You played a mix, which is against the rules. '],
-            ['sound', 'The song you played had bad sound quality or no sound. '],
-            ['nsfw', 'The song you contained was NSFW (image or sound). '],
-            ['unavailable', 'The song you played was not available for some users. ']
+            ['theme', 'Netinkama daina! '],
+            ['op', 'Daina uždrausta! '],
+            ['history', 'Daina nesenai grojo! '],
+            ['mix', 'Negalima! '],
+            ['sound', 'Šios dainos bloga video arba audio kokybė! '],
+            ['nsfw', 'Dainoje rasta N18 turinio! '],
+            ['unavailable', 'Ši daina neprieinama! ']
         ],
         afkpositionCheck: 15,
         afkRankCheck: 'ambassador',
@@ -101,7 +101,7 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: null,
+        youtubeLink: https://www.youtube.com/channel/UC3m7yzO8lUGByYFt2HOBOQw?view_as=subscriber,
         website: null,
         intervalMessages: [],
         messageInterval: 5,
